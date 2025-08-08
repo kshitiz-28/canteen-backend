@@ -6,9 +6,10 @@
   "dependencies": {
     "json-server": "^0.17.4"
   },
-  "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
-  },
+ "scripts": {
+  "start": "json-server --host 0.0.0.0 --watch db.json --port $PORT"
+}
+,
   "description": "A full-stack Canteen Management System built with React.js, Redux, Material-UI, and JSON Server. It includes role-based dashboards for Admin and Employees, item management, purchase handling, credit tracking, and transaction history.",
   "repository": {
     "type": "git",
